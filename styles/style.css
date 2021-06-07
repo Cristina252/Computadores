@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#logo1{
+  padding-top: 1px;
+  margin-left:10px;
+  width: 100px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-image: url(/image/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+#cabecera{
+  padding-top: 1px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+#contenedor {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background:rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+.form-group {
+  margin: 10px;
+  padding: 5px;
+}
+
+
+.form-control {
+  display: block;
+  width: 350px;
+  height: 30px;
+  padding:1px;
+  color: #1a1613;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+label {
+  display: block;
+  align-items: center;
+  font-size:18px;
+  margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+  .submit-button {
+    display: block;
+    width: 25%;
+    padding: 5px;
+    background: rgb(26, 141, 177);
+    color: inherit;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top:1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #cantidad-label,
+  #compra-label,
+  #descuento-label,
+  #total-label {
+    font-weight: bold;
+   
+  }
+
+  h2 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+     
+  }
+
+  #resumen {
+      display: none;
+  }
+
+  table{
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .imagenTable{
+      width: 200px;
+      padding: 25px;
+
+  }
+
+
+  #alerta{
+    color:red;
+  }
+
+  #final{
+  text-align: right;
+  color:rgb(13, 25, 88);
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="StyleSheet" href="styles/style.css" type="text/css" />
+  </head>
+
+
+  <body>
+    
+    <div>
+    <header>
+      <img id="logo1" src="/image/logo1.png" alt="tecnologyC">
+    <div id="cabecera">
+        <h1 id="title">Computadores TecnologyC</h1>
+      
+         
+      </div>
+      
+    </header>
+    </div>
+
+
+    <main id="contenedor">
+
+    <form>
+
+    <div id="table">
+        <table>
+            <tr>
+                <td>
+                    <img src="/image/computador1.jpg" class="imagenTable" alt="referencia1">
+                </td>
+
+                <td>
+                    <img src="/image/computador2.jfif" class="imagenTable" alt="referencia2">
+                </td>
+                   
+                <td>
+                    <img src="/image/computador 3.png" class="imagenTable" alt="referencia3">
+                </td>
+            
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="/image/computador4.jfif" class="imagenTable" alt="referencia1">
+                </td>
+
+                <td>
+                    <img src="/image/computador5.jpg" class="imagenTable" alt="referencia2">
+                </td>
+                   
+                <td>
+                    <img src="/image/computador6.jpeg" class="imagenTable" alt="referencia3">
+                </td>
+            
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="/image/computador7.jfif" class="imagenTable" alt="referencia1">
+                </td>
+
+                <td>
+                    <img src="/image/computador8.jpeg" class="imagenTable" alt="referencia2">
+                </td>
+                   
+                <td>
+                    <img src="/image/comutador9.jfif" class="imagenTable" alt="referencia3">
+                </td>
+            
+            </tr>
+        </table>
+
+  
+        <div class="form-group">
+            <label id="cantidad-label" for="cantidad"> Cantidad de computadores comprados:</label>
+  
+            <input
+              type="number"
+              cantidad="cantidad"
+              id="cantidad"
+              class="form-control"    
+              required
+            />
+          </div>
+
+          
+        <div class="form-group">
+            <button type="button" id="calcular" class="submit-button" onclick="calculo()">
+              Calcular
+            </button>
+        </div>
+
+      </div>    
+
+        <div id="resumen">
+          <h2 id="orden"> Orden de compra</h2>
+        <div class="form-group">
+          <label id="compra-label" for="compra">Valor de compra: </label>
+
+          <input
+            type="number"
+            compra="valor"
+            id="valor"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="descuento-label" for="descuento"> Valor de descuento:</label>
+
+          <input
+            type="number"
+            descuento="descuento"
+            id="descuento"
+            class="form-control"    
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="total-label" for="total"> Total compra: </label>
+
+          <input
+            type="number"
+            total="total"
+            id="total"
+            weidth="100px"
+            min="10"
+            max="99"
+            class="form-control"
+            required 
+          />
+        </div>
+
+        <label id="alerta"></label>
+    
+    </div>
+
+    <div> 
+      <footer id="final">Productos 100% garantizados</footer>
+    </div>
+            
+
+        </div>
+      </div>
+    </form>
+    </main>
+
+    
+   
+
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
